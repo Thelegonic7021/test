@@ -784,7 +784,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixilart-sprite_0: 4689240166119133576
+      pixilart-sprite_1: 4521018998857404175
+      pixilart-sprite_10: -2373955197081717080
+      pixilart-sprite_11: -573327041675331482
+      pixilart-sprite_12: -3157728139587121334
+      pixilart-sprite_13: -3675547840818973512
+      pixilart-sprite_14: 2420268537229075239
+      pixilart-sprite_15: -8642817127734411706
+      pixilart-sprite_16: 3082524005124611595
+      pixilart-sprite_17: 7331592254506026159
+      pixilart-sprite_18: 6001305201216136165
+      pixilart-sprite_19: -351759893528886243
+      pixilart-sprite_2: -4621546931983276131
+      pixilart-sprite_20: -1746315536963178120
+      pixilart-sprite_21: -4638230053491598171
+      pixilart-sprite_22: -9113812716302803564
+      pixilart-sprite_23: -6009431565483020227
+      pixilart-sprite_24: 5281062248117461875
+      pixilart-sprite_25: 4749225922088529087
+      pixilart-sprite_26: 3315850460348634238
+      pixilart-sprite_3: 713319685308842295
+      pixilart-sprite_4: -8518763969059935731
+      pixilart-sprite_5: 4832274764714241032
+      pixilart-sprite_6: 780070264368347037
+      pixilart-sprite_7: -4193572049093788039
+      pixilart-sprite_8: -3644103208204493558
+      pixilart-sprite_9: -1265382730224049132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
