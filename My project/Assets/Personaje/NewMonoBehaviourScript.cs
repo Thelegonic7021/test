@@ -3,17 +3,17 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     private Animator _animator;
-    private Rigidbody2D _rigidbody;  // Variable para Rigidbody2D
+    private Rigidbody2D _rigidbody;  
 
-    private bool tocar_suelo = true; // Para detectar si el personaje está en el suelo
+    private bool tocar_suelo = true; 
 
-    public float Speed = 5f;
+    public float Speed = 0.08f;
     public float JumpForce = 7f;
 
     void Awake()
     {
         _animator = GetComponent<Animator>();
-        _rigidbody = GetComponent<Rigidbody2D>(); // Ahora correctamente inicializado
+        _rigidbody = GetComponent<Rigidbody2D>(); 
     }
 
     void Update()
@@ -23,7 +23,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             _animator.Play("Run");
             GetComponent<SpriteRenderer>().flipX = false;
-            transform.position += new Vector3(0.035f, 0, 0);
+            transform.position += new Vector3(Speed, 0, 0);
         }
 
         // Movimiento a la izquierda
@@ -31,20 +31,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             _animator.Play("Run");
             GetComponent<SpriteRenderer>().flipX = true;
-            transform.position += new Vector3(-0.035f, 0, 0);
+            transform.position += new Vector3(-Speed, 0, 0);
         }
 
         // Salto (solo si está en el suelo)
         if (tocar_suelo && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             Jump();
-        }
-
-        // Agacharse
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            _animator.Play("Idle");
-            transform.position += new Vector3(0, -0.035f, 0);
         }
 
         // Ataque
@@ -71,12 +64,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
     }
 
-   
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Suelo"))
         {
             tocar_suelo = false;
-        }
-    }
+        }
+    }
 }
