@@ -1,15 +1,15 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Movimiento : MonoBehaviour
 {
     private Animator _animator;
     private Rigidbody2D _rigidbody;  
 
     private bool tocar_suelo = true; 
 
-    public float Speed = 0.08f;
-    public float JumpForce = 7f;
-
+    public float Speed = 0.035f;
+    public float JumpForce = 3.5f;
+    public bool Bloqueado = false;
     void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -18,33 +18,41 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void Update()
     {
-        // Movimiento a la derecha
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-        {
-            _animator.Play("Run");
-            GetComponent<SpriteRenderer>().flipX = false;
-            transform.position += new Vector3(Speed, 0, 0);
-        }
+        
+        if (Bloqueado == false){
+            // Movimiento a la derecha
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+            {
+                _animator.Play("Run");
+                GetComponent<SpriteRenderer>().flipX = false;
+                transform.position += new Vector3(Speed, 0, 0);
+            }
 
-        // Movimiento a la izquierda
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            _animator.Play("Run");
-            GetComponent<SpriteRenderer>().flipX = true;
-            transform.position += new Vector3(-Speed, 0, 0);
-        }
+            // Movimiento a la izquierda
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                _animator.Play("Run");
+                GetComponent<SpriteRenderer>().flipX = true;
+                transform.position += new Vector3(-Speed, 0, 0);
+            }
 
-        // Salto (solo si está en el suelo)
-        if (tocar_suelo && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
-        {
-            Jump();
-        }
+            // Salto (solo si está en el suelo)
+            if (tocar_suelo && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
+            {
+                Jump();
+            }
 
-        // Ataque
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            _animator.Play("attack");
+            // Ataque
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                _animator.Play("attack");
+            }
+            if (Input.GetKey(KeyCode.None))
+            {
+                _animator.Play("Idle",0,0f);
+            }
         }
+        
     }
 
     // Método de salto

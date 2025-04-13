@@ -25,7 +25,7 @@ namespace Tutorial2D
 
         void Update()
         {
-            informacionHabilitada = Physics2D.OverlapCircle(this.transform.position, 1f, personaje);
+            informacionHabilitada = Physics2D.OverlapCircle(this.transform.position, 0.5f, personaje);
 
             if (informacionHabilitada == true){
                 informacion.gameObject.SetActive(true);
@@ -34,7 +34,7 @@ namespace Tutorial2D
                 informacion.gameObject.SetActive(false);
             }
 
-            mostrarInformacionHabilitada = Physics2D.OverlapCircle(this.transform.position, 1f, personaje);
+            mostrarInformacionHabilitada = Physics2D.OverlapCircle(this.transform.position, 0.5f, personaje);
 
             if (mostrarInformacionHabilitada == true && Input.GetKeyDown(KeyCode.K)){
                 mostrarInformacion.gameObject.SetActive(true);
