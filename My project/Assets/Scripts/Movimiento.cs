@@ -77,6 +77,6 @@ public class Movimiento : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo"))
         {
             tocar_suelo = false;
-        }
-    }
+        }
+    }
 }
