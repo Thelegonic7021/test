@@ -9,7 +9,13 @@ public class Movimiento : MonoBehaviour
 
     public float Speed = 0.035f;
     public float JumpForce = 3.5f;
-    public bool Bloqueado = false;
+    public bool Bloqueado;
+
+
+    void Start()
+    {
+        Bloqueado = true;
+    }
     void Awake()
     {
         _animator = GetComponent<Animator>();
