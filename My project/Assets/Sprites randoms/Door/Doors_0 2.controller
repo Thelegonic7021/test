@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Abrir
+    m_ConditionEvent: abrir
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4683500582374181765}
@@ -59,8 +59,8 @@ AnimatorController:
   m_Name: Doors_0 2
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Abrir
-    m_Type: 9
+  - m_Name: abrir
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0

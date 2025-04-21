@@ -74,6 +74,7 @@ public class Movimiento : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Suelo"))
         {
+            _animator.Play("Idle",0,0f);
             tocar_suelo = true;
         }
     }
@@ -83,6 +84,6 @@ public class Movimiento : MonoBehaviour
         if (collision.gameObject.CompareTag("Suelo"))
         {
             tocar_suelo = false;
-        }
+       }
     }
 }
