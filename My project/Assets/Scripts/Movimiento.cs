@@ -1,11 +1,12 @@
 using UnityEngine;
+using System.Collections;
 
 public class Movimiento : MonoBehaviour
 {
     private Animator _animator;
     private Rigidbody2D _rigidbody;  
 
-    private bool tocar_suelo = true; 
+    public bool tocar_suelo = true; 
 
     public float Speed = 0.035f;
     public float JumpForce = 3.5f;
@@ -53,14 +54,14 @@ public class Movimiento : MonoBehaviour
             {
                 _animator.Play("attack");
             }
+
             if (Input.GetKey(KeyCode.None))
             {
                 _animator.Play("Idle",0,0f);
             }
-        }
-        
-    }
 
+        }
+    }
     // Método de salto
     private void Jump()
     {
