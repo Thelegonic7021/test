@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 56282fe93d646f5aeb0665b85a4d5650
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2542995987112192354
+    second: Flor_0
+  - first:
+      213: 6783595759465402281
+    second: Flor_1
+  - first:
+      213: 5768982529612683157
+    second: Flor_2
+  - first:
+      213: -4264140333397535579
+    second: Flor_3
+  - first:
+      213: -6786843408444050864
+    second: Flor_4
+  - first:
+      213: -5282486024415509477
+    second: Flor_5
+  - first:
+      213: 1325170558344661439
+    second: Flor_6
+  - first:
+      213: -1027032007257007874
+    second: Flor_7
+  - first:
+      213: -4541813047924599627
+    second: Flor_8
+  - first:
+      213: -9025044261820844757
+    second: Flor_9
+  - first:
+      213: -2369186000577099083
+    second: Flor_10
+  - first:
+      213: -683947184733484906
+    second: Flor_11
+  - first:
+      213: -362760484413902065
+    second: Flor_12
+  - first:
+      213: -1350567582542799636
+    second: Flor_13
+  - first:
+      213: 6837322845287961722
+    second: Flor_14
+  - first:
+      213: -2078474361320484392
+    second: Flor_15
+  - first:
+      213: 665641618316448767
+    second: Flor_16
+  - first:
+      213: 5602898107332039636
+    second: Flor_17
+  - first:
+      213: -4043617257973403952
+    second: Flor_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flor_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 42
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e961fe28f9675bcd0800000000000000
+      internalID: -2542995987112192354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 46
+        height: 90
+      alignment: 9
+      pivot: {x: 0.36574388, y: 0.49819863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af08c6f66c242e50800000000000000
+      internalID: 6783595759465402281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 0
+        width: 61
+        height: 88
+      alignment: 9
+      pivot: {x: 0.382797, y: 0.48643455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5979ff89b0b8f0050800000000000000
+      internalID: 5768982529612683157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 54
+        height: 90
+      alignment: 9
+      pivot: {x: 0.34575173, y: 0.5074542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a49c6b85fab2d4c0800000000000000
+      internalID: -4264140333397535579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 52
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b148fb7d2f6d0b6b0800000000000000
+      internalID: -5282486024415509477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_6
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb980fc0a93f36210800000000000000
+      internalID: 1325170558344661439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_8
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 71
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b45832b81d38f0c0800000000000000
+      internalID: -4541813047924599627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 57
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25bdf38f0a90c280800000000000000
+      internalID: -9025044261820844757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 61
+        height: 88
+      alignment: 9
+      pivot: {x: 0.60144246, y: 0.4961093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba06cc82e5fe1fd0800000000000000
+      internalID: -2369186000577099083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_12
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 55
+        height: 90
+      alignment: 9
+      pivot: {x: 0.6132746, y: 0.49554008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03f5fbe24737faf0800000000000000
+      internalID: -362760484413902065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_15
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 53
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d15cb2a496c723e0800000000000000
+      internalID: -2078474361320484392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_16
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 0
+        width: 53
+        height: 90
+      alignment: 9
+      pivot: {x: 0.42658275, y: 0.49923167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3d77f6685dc3900800000000000000
+      internalID: 665641618316448767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_17
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 0
+        width: 61
+        height: 88
+      alignment: 9
+      pivot: {x: 0.40310618, y: 0.49753445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d31c38a42e71cd40800000000000000
+      internalID: 5602898107332039636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_18
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 46
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de2bd2278f22e7c0800000000000000
+      internalID: -4043617257973403952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 699f139a0f2deeb1ba9791c7aea855c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flor_4: 664195052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

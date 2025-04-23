@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bakcground_night3_0: 722515687443528645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
