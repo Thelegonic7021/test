@@ -5,6 +5,7 @@ public class flotar_boton : MonoBehaviour
     public float altura = 0.5f;  // Altura del movimiento
     public float velocidad = 1.5f; // Velocidad del movimiento
 
+    public float vida=3;
     private Vector3 posicionInicial;
 
     void Start()
