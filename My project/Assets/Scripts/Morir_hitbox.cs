@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class Morir_hitbox: MonoBehaviour
 {
+    public string escena;
     public Perder perderScript;
     public bool dentro = false;
     void OnTriggerEnter2D(Collider2D other)
+    
     {
         if (other.CompareTag("Player")){
             dentro = true;
@@ -20,7 +22,7 @@ public class Morir_hitbox: MonoBehaviour
 
     void Update(){
         if (dentro){
-            string escena = "Escena_laboratorio";
+            
             perderScript.Morir(escena);
         }
     }
