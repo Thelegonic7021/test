@@ -3,9 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< Updated upstream
   tags:
   - Suelo
   - Mensaje
+=======
+  tags: []
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -13,11 +17,19 @@ TagManager:
   - 
   - Water
   - UI
+<<<<<<< Updated upstream
   - Personaje
   - Mensaje
   - OneWayPlatform
   - Ground
   - Wall
+=======
+  - 
+  - 
+  - Player
+  - Ground
+  - 
+>>>>>>> Stashed changes
   - 
   - 
   - 
@@ -43,5 +55,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< Updated upstream
+=======
+  - name: 'Backgranud '
+    uniqueID: 344585573
+    locked: 0
+  - name: personajes
+    uniqueID: 450854305
+    locked: 0
+  - name: enemy
+    uniqueID: 1973589131
+    locked: 0
+>>>>>>> Stashed changes
   m_RenderingLayers:
   - Default
