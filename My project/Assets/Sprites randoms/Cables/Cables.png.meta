@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: feb29d4f2e9d55250a427ca60dc3b8ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7418219313751584670
+    second: Cables_0
+  - first:
+      213: 2370164478134428858
+    second: Cables_1
+  - first:
+      213: 4406248409341808636
+    second: Cables_2
+  - first:
+      213: -5077057883531828817
+    second: Cables_3
+  - first:
+      213: 6787541756109055870
+    second: Cables_4
+  - first:
+      213: 4000442195092155632
+    second: Cables_5
+  - first:
+      213: 832559358242094302
+    second: Cables_6
+  - first:
+      213: 6019202119872332601
+    second: Cables_7
+  - first:
+      213: -2935659303479349407
+    second: Cables_8
+  - first:
+      213: 6910154618788904172
+    second: Cables_9
+  - first:
+      213: -4230259906322612240
+    second: Cables_10
+  - first:
+      213: 1735514645569247889
+    second: Cables_11
+  - first:
+      213: 5394034429385915508
+    second: Cables_12
+  - first:
+      213: 6416461889008332913
+    second: Cables_13
+  - first:
+      213: 8553367825901848024
+    second: Cables_14
+  - first:
+      213: -6735331562278199049
+    second: Cables_15
+  - first:
+      213: -3551242759168072407
+    second: Cables_16
+  - first:
+      213: 168212757709930320
+    second: Cables_17
+  - first:
+      213: 4483760586754537467
+    second: Cables_18
+  - first:
+      213: -7427238679227720416
+    second: Cables_19
+  - first:
+      213: -182787223706186553
+    second: Cables_20
+  - first:
+      213: 7364357601024117067
+    second: Cables_21
+  - first:
+      213: 9004814319506182320
+    second: Cables_22
+  - first:
+      213: 8793241815528237153
+    second: Cables_23
+  - first:
+      213: 7538353047469342521
+    second: Cables_24
+  - first:
+      213: -127020310269073656
+    second: Cables_25
+  - first:
+      213: -678461517901481444
+    second: Cables_26
+  - first:
+      213: -7706197252690828954
+    second: Cables_27
+  - first:
+      213: 7939901465224419371
+    second: Cables_28
+  - first:
+      213: 5622257990786352180
+    second: Cables_29
+  - first:
+      213: 1106422031674543509
+    second: Cables_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cables_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489db33bdf9fdb8538df1a0ba7c8b06a
+      internalID: 2043200068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cables_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6919bc85ce45c74bb46a3c6e764393
+      internalID: 1016880132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cables_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1e45e7e14f9b5a6b0f3b451d6a22ec
+      internalID: -532156799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cables_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45702a71ab811dd76b36e26bc8f41ed6
+      internalID: -1907450212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cables_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd7e7a6efcaf9f98af596a5686e39d3
+      internalID: -133844977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cables_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 300
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2941a94a3a4a006c4913286d49a57847
+      internalID: -1159657031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d617a55095f5828378294d95b70693af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cables_0: 2043200068
+      Cables_1: 1016880132
+      Cables_2: -532156799
+      Cables_3: -1907450212
+      Cables_4: -133844977
+      Cables_5: -1159657031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
