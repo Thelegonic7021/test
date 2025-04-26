@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Video;
 
@@ -8,6 +9,9 @@ public class Recoger_cassete : MonoBehaviour
     public VideoClip video;
     public Movimiento movimientoScript;
     public RenderTexture renderDestino;
+    
+
+    public static int cantidad = 0;
 
     void Start()
     {
@@ -16,7 +20,8 @@ public class Recoger_cassete : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {   
-        
+        cantidad++;
+        Debug.Log("Hay estos cassetes:" + cantidad);
         movimientoScript.Bloqueado = true;
         VideoPlayer vp = gameObject.AddComponent<VideoPlayer>();
         vp.renderMode = VideoRenderMode.RenderTexture;
@@ -34,4 +39,5 @@ public class Recoger_cassete : MonoBehaviour
         Destroy(cassete);
         Destroy(this);
     }
+    
 }

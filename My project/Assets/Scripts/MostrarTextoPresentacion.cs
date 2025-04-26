@@ -13,15 +13,19 @@ public class MostrarTextoPresentacion : MonoBehaviour
         textoPresentacion.SetActive(false);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            textoPresentacion.SetActive(true);
-            movimientoScript.Bloqueado = true;
-            tvAnimator.SetBool("ActivarTv", true);
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.CompareTag("Player")){
+            if (!PlayerPrefs.HasKey("NombreJugador")){
+                textoPresentacion.SetActive(true);
+                movimientoScript.Bloqueado = true;
+                tvAnimator.SetBool("ActivarTv", true);
+            }else{
+                Debug.Log("Nombre ya existe: " + PlayerPrefs.GetString("NombreJugador"));
+                // Si ya hay nombre, no mostramos nada
+            }
         }
     }
+
 
     void OnTriggerExit2D(Collider2D other)
     {

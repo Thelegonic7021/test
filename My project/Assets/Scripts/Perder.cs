@@ -8,6 +8,6 @@ public class Perder : MonoBehaviour
     public void Morir(string escena){
         
         SceneManager.LoadScene(escena);
-        Debug.Log("Cargando escena: " + escena); // Para depurar
+        Debug.Log("Cargando escena: " + escena);
     }
 }
