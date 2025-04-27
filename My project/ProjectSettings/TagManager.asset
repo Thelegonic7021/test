@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Suelo       # Desde Updated upstream (tu equipo)
-  - Mensaje     # Desde Updated upstream (tu equipo)
+  - Suelo
+  - Mensaje
   layers:
   - Default
   - TransparentFX
@@ -13,24 +13,35 @@ TagManager:
   - 
   - Water
   - UI
-  - Personaje   # Desde Updated upstream (tu equipo)
-  - Mensaje     # Desde Updated upstream (tu equipo)
-  - OneWayPlatform  # Desde Updated upstream (tu equipo)
-  - Ground      # Unificado (aparece en ambas versiones)
-  - Wall        # Desde Updated upstream (tu equipo)
-  - Player      # Desde Stashed changes (tus cambios locales)
+  - Personaje
+  - Mensaje
+  - OneWayPlatform
+  - Ground
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background  # Corregido "Backgranud" -> "Background"
-    uniqueID: 344585573
-    locked: 0
-  - name: personajes
-    uniqueID: 450854305
-    locked: 0
-  - name: enemy
-    uniqueID: 1973589131
     locked: 0
   m_RenderingLayers:
   - Default
