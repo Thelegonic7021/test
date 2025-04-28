@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: fd10f931c49dde04a94a3011e46e1c5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9119454948960919081
+    second: varios cosos_0
+  - first:
+      213: -6390421760747414889
+    second: varios cosos_1
+  - first:
+      213: 467296647462661401
+    second: varios cosos_2
+  - first:
+      213: 741177925148947218
+    second: varios cosos_3
+  - first:
+      213: -4859417399404412617
+    second: varios cosos_4
+  - first:
+      213: 2242727131631317303
+    second: varios cosos_5
+  - first:
+      213: 8980459665768682916
+    second: varios cosos_6
+  - first:
+      213: -6401002733592560786
+    second: varios cosos_7
+  - first:
+      213: -3444670008077425172
+    second: varios cosos_8
+  - first:
+      213: 1223274703444667403
+    second: varios cosos_9
+  - first:
+      213: 3422892238194189285
+    second: varios cosos_10
+  - first:
+      213: -5541775524954413291
+    second: varios cosos_11
+  - first:
+      213: -5958640191372933537
+    second: varios cosos_12
+  - first:
+      213: -4223255913838977702
+    second: varios cosos_13
+  - first:
+      213: -2538744087947661163
+    second: varios cosos_14
+  - first:
+      213: 8868003067512890366
+    second: varios cosos_15
+  - first:
+      213: -5066593258218781575
+    second: varios cosos_16
+  - first:
+      213: 7829033201587235251
+    second: varios cosos_17
+  - first:
+      213: -5377234591538910284
+    second: varios cosos_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: varios cosos_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 322
+        width: 123
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e5ef985ffce8e70800000000000000
+      internalID: 9119454948960919081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 338
+        width: 111
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a59b93449a057a0800000000000000
+      internalID: -6390421760747414889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 253
+        width: 77
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d2eb433db2c7600800000000000000
+      internalID: 467296647462661401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 328
+        width: 113
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2133ddf5561394a00800000000000000
+      internalID: 741177925148947218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 186
+        width: 117
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731c52d1f91ef8cb0800000000000000
+      internalID: -4859417399404412617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 250
+        width: 117
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731f3099174cf1f10800000000000000
+      internalID: 2242727131631317303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 253
+        width: 113
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a59dd94c7001ac70800000000000000
+      internalID: 8980459665768682916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 100
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b39e18de11b27a0800000000000000
+      internalID: -6401002733592560786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 168
+        width: 117
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce56a18d0e21230d0800000000000000
+      internalID: -3444670008077425172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 114
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c6a819cd1f9f010800000000000000
+      internalID: 1223274703444667403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 150
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3a10afa5e808f20800000000000000
+      internalID: 3422892238194189285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_11
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 118
+        width: 57
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517632a8588a713b0800000000000000
+      internalID: -5541775524954413291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 100
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56c9d0f058ae4da0800000000000000
+      internalID: -5958640191372933537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d5f044f1bf365c0800000000000000
+      internalID: -4223255913838977702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590b14ee3b194ccd0800000000000000
+      internalID: -2538744087947661163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 18
+        width: 115
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef32e222ec9711b70800000000000000
+      internalID: 8868003067512890366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 20
+        width: 117
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9740b7e8648dfa9b0800000000000000
+      internalID: -5066593258218781575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_17
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 21
+        width: 92
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9a853873056ac60800000000000000
+      internalID: 7829033201587235251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: varios cosos_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 21
+        width: 125
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6169f0a93065b0800000000000000
+      internalID: -5377234591538910284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d01d0f1c58ee01e45a9730998505cdd3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      varios cosos_0: 9119454948960919081
+      varios cosos_1: -6390421760747414889
+      varios cosos_10: 3422892238194189285
+      varios cosos_11: -5541775524954413291
+      varios cosos_12: -5958640191372933537
+      varios cosos_13: -4223255913838977702
+      varios cosos_14: -2538744087947661163
+      varios cosos_15: 8868003067512890366
+      varios cosos_16: -5066593258218781575
+      varios cosos_17: 7829033201587235251
+      varios cosos_18: -5377234591538910284
+      varios cosos_2: 467296647462661401
+      varios cosos_3: 741177925148947218
+      varios cosos_4: -4859417399404412617
+      varios cosos_5: 2242727131631317303
+      varios cosos_6: 8980459665768682916
+      varios cosos_7: -6401002733592560786
+      varios cosos_8: -3444670008077425172
+      varios cosos_9: 1223274703444667403
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

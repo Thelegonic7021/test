@@ -11,7 +11,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Escena_laboratorio.unity
     guid: 3fb61f6522bede09891fa6ba1eb13572
+<<<<<<< HEAD
   - enabled: 1
+=======
+  - enabled: 0
+>>>>>>> a71623de9feef77fc8d50285945b2c13878687b2
     path: Assets/Scenes/habitad_laboratorio.unity
     guid: 30f920c14ef9113448ea32912f6b0f0a
   m_configObjects:
