@@ -12,27 +12,27 @@ public class slimeController : MonoBehaviour
     private Vector2 movement;
     private bool enMovimiento;
     private Animator animator;
-
+    private Vector3 escalaOriginal;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        escalaOriginal = transform.localScale; // Guardamos el tamaño original
     }
-
     void Update()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, Player.position); // Corregido: 'distanceToPalyer' ➔ 'distanceToPlayer'
+        float distanceToPlayer = Vector2.Distance(transform.position, Player.position);
 
         if (distanceToPlayer < detectionRadius)
         {
-            Vector2 direction = (Player.position - transform.position).normalized; // Corregido: 'player' ➔ 'Player'
+            Vector2 direction = (Player.position - transform.position).normalized;
             if (direction.x < 0)
             {
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                transform.localScale = new Vector3(-escalaOriginal.x, escalaOriginal.y, escalaOriginal.z);
             }
             else if (direction.x > 0)
             {
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                transform.localScale = new Vector3(escalaOriginal.x, escalaOriginal.y, escalaOriginal.z);
             }
             movement = new Vector2(direction.x, 0);
             enMovimiento = true;
@@ -45,6 +45,18 @@ public class slimeController : MonoBehaviour
 
         rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
 
-        animator.SetBool("enMovimiento", enMovimiento); // Corregido: 'enMobimiento' y 'enMobimiento' ➔ 'enMovimiento'
+        animator.SetBool("enMovimiento", enMovimiento);
+    }
+        // >>> Aquí agregas el daño al player cuando colisione
+        private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            scrip playerHealth = collision.gameObject.GetComponent<scrip>();
+            if (playerHealth != null)
+            {
+                playerHealth.TomarDaño(1f); // Solo 1 de vida por toque
+            }
+        }
     }
 }
