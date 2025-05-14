@@ -3,29 +3,44 @@ using UnityEngine.UI;
 
 public class BarraDeVida : MonoBehaviour
 {
-    private Slider slider;
-    private Animator animator;
+    [SerializeField] private Slider slider;
 
-    private void Start()
+    private void Awake()
     {
-        slider = GetComponent<Slider>();
-        animator=GetComponent<Animator>();
-    }
+        // Verifica si el slider no fue asignado manualmente
+        if (slider == null)
+        {
+            slider = GetComponentInChildren<Slider>();
 
-    public void CambiarVidaMaxima(float vidaMaxima)
-    {
-        slider.maxValue = vidaMaxima;
-        animator.SetTrigger("Golpe");
-    }
-
-    public void CambiarVidaActual(float cantidadVida)
-    {
-        slider.value = cantidadVida;
+            if (slider == null)
+            {
+                Debug.LogError("❌ ERROR: No se encontró el Slider en BarraDeVida.");
+            }
+        }
     }
 
     public void InicializarBarraDeVida(float cantidadVida)
     {
-        CambiarVidaMaxima(cantidadVida);
-        CambiarVidaActual(cantidadVida);
+        if (slider != null)
+        {
+            slider.maxValue = cantidadVida;
+            slider.value = cantidadVida;
+        }
+    }
+
+    public void CambiarVidaActual(float cantidadVida)
+    {
+        if (slider != null)
+        {
+            slider.value = cantidadVida;
+        }
+    }
+
+    public void CambiarVidaMaxima(float vidaMaxima)
+    {
+        if (slider != null)
+        {
+            slider.maxValue = vidaMaxima;
+        }
     }
 }

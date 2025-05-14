@@ -52,7 +52,7 @@ public class slimeController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            scrip playerHealth = collision.gameObject.GetComponent<scrip>();
+            Configuracionvida playerHealth = collision.gameObject.GetComponent<Configuracionvida>();
             if (playerHealth != null)
             {
                 playerHealth.TomarDaño(1f); // Solo 1 de vida por toque

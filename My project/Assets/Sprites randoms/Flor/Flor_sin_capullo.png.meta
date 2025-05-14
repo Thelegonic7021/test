@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: dc3514376acbccce79e1ea04682507cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8436960157236471074
+    second: Flor_sin_capullo_0
+  - first:
+      213: 4990854732237142051
+    second: Flor_sin_capullo_1
+  - first:
+      213: -2043288961021888813
+    second: Flor_sin_capullo_2
+  - first:
+      213: 4818909384081285220
+    second: Flor_sin_capullo_3
+  - first:
+      213: -5459953288040628750
+    second: Flor_sin_capullo_4
+  - first:
+      213: 3830718820275743567
+    second: Flor_sin_capullo_5
+  - first:
+      213: 9119125719809936012
+    second: Flor_sin_capullo_6
+  - first:
+      213: 6908841996316599673
+    second: Flor_sin_capullo_7
+  - first:
+      213: 6844953442596697468
+    second: Flor_sin_capullo_8
+  - first:
+      213: -5089631109684987149
+    second: Flor_sin_capullo_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flor_sin_capullo_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 184
+        height: 345
+      alignment: 9
+      pivot: {x: 0.59822047, y: 0.503582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2252434ef8a161570800000000000000
+      internalID: 8436960157236471074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_1
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 196
+        height: 332
+      alignment: 9
+      pivot: {x: 0.34072065, y: 0.4648733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3287290bfe3134540800000000000000
+      internalID: 4990854732237142051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_2
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 202
+        height: 319
+      alignment: 9
+      pivot: {x: 0.3098634, y: 0.5307751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d630d80487c4a3e0800000000000000
+      internalID: -2043288961021888813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_3
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 0
+        width: 171
+        height: 319
+      alignment: 9
+      pivot: {x: 0.3744596, y: 0.54247963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46026fa9d8430e240800000000000000
+      internalID: 4818909384081285220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_4
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 0
+        width: 227
+        height: 326
+      alignment: 9
+      pivot: {x: 0.45255497, y: 0.49574912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdbc10a9695a34b0800000000000000
+      internalID: -5459953288040628750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_5
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 0
+        width: 214
+        height: 319
+      alignment: 9
+      pivot: {x: 0.4196298, y: 0.4987945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b60f49872792530800000000000000
+      internalID: 3830718820275743567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_6
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 0
+        width: 215
+        height: 326
+      alignment: 9
+      pivot: {x: 0.39963096, y: 0.4978633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a4667e684ad8e70800000000000000
+      internalID: 9119125719809936012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_7
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 0
+        width: 215
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97560c7e03321ef50800000000000000
+      internalID: 6908841996316599673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor_sin_capullo_9
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 218
+        height: 321
+      alignment: 9
+      pivot: {x: 0.46105844, y: 0.4975304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faf275c87ffd59b0800000000000000
+      internalID: -5089631109684987149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7a9d929ade152abdb9d71f740157085c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flor_sin_capullo_0: 8436960157236471074
+      Flor_sin_capullo_1: 4990854732237142051
+      Flor_sin_capullo_2: -2043288961021888813
+      Flor_sin_capullo_3: 4818909384081285220
+      Flor_sin_capullo_4: -5459953288040628750
+      Flor_sin_capullo_5: 3830718820275743567
+      Flor_sin_capullo_6: 9119125719809936012
+      Flor_sin_capullo_7: 6908841996316599673
+      Flor_sin_capullo_9: -5089631109684987149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -50,7 +50,7 @@ public class Romper_puerta_perder : MonoBehaviour
         animadorJugador.SetBool("Attack", true);
 
         // Iniciar sacudida de cámara
-        Camara camaraScript = FindObjectOfType<Camara>();
+        CamaraControl camaraScript = FindFirstObjectByType<CamaraControl>();
         if (camaraScript != null)
         {
             camaraScript.EmpezarSacudida();

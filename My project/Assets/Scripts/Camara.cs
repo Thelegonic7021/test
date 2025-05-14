@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class Camara : MonoBehaviour
+public class Camara1_pablo: MonoBehaviour
 {
     public Transform objetivo;
     public float velocidadCamara = 0.5f;
     public Vector3 desplazamiento;
 
     private float duracionSacudida = 0f;
-    public float intensidadSacudida = 0.1f; // Qué tanto se sacude
-    public float tiempoSacudida = 1f;     // Cuánto dura la sacudida
+    public float intensidadSacudida = 0.1f; 
+    public float tiempoSacudida = 1f;     
 
     private Vector3 posicionInicial;
 
@@ -30,6 +30,7 @@ public class Camara : MonoBehaviour
         }
     }
 
+    // Solo una versión del método
     public void EmpezarSacudida()
     {
         duracionSacudida = tiempoSacudida;

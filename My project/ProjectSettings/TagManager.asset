@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Suelo
   - Mensaje
+  - basura
+  - alcantarilla
+  - Alcantarilla
+  - Ground
+  - Torre
+  - Proyectil
   layers:
   - Default
   - TransparentFX
@@ -13,16 +19,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Personaje
-  - Mensaje
-  - OneWayPlatform
-<<<<<<< HEAD
   - Ground
-  - Wall
-=======
   - 
   - 
->>>>>>> a71623de9feef77fc8d50285945b2c13878687b2
+  - 
+  - 
   - 
   - 
   - 

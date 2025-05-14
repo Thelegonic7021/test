@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Si quieres reiniciar escena
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,12 +9,15 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        Debug.Log("Vida inicial del jugador: " + currentHealth);
     }
 
     public void TakeDamage(int amount)
     {
+        if (amount <= 0) return; // Evitar daño inválido
+
         currentHealth -= amount;
-        Debug.Log("Vida del jugador: " + currentHealth);
+        Debug.Log("¡El jugador recibió daño! Vida actual: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -26,6 +28,11 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("¡El jugador murió!");
-        // Aquí puedes reiniciar la escena, poner un Game Over, etc.
+
+        // Puedes reiniciar la escena si quieres
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+        // O mostrar pantalla de Game Over, desactivar movimiento, etc.
+        gameObject.SetActive(false);
     }
 }

@@ -1,33 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class scrip : MonoBehaviour
+public class Configuracionvida : MonoBehaviour
 {
     [SerializeField] private float vida;
-    [SerializeField] private float maximaVida;
+    [SerializeField] private float maximaVida = 100f;
     [SerializeField] private BarraDeVida barraDeVida;
+
+    private Vector3 posicionInicial;
 
     private void Start()
     {
         vida = maximaVida;
-        barraDeVida.InicializarBarraDeVida(vida);
+        barraDeVida?.InicializarBarraDeVida(maximaVida);
+        posicionInicial = transform.position;
     }
 
     public void TomarDaño(float daño)
     {
         vida -= daño;
-        barraDeVida.CambiarVidaActual(vida);
+        Debug.Log("El jugador recibió daño! Vida actual: " + vida);
+
+        if (barraDeVida != null)
+        {
+            barraDeVida.CambiarVidaActual(vida);
+        }
+
         if (vida <= 0)
         {
             ReiniciarJugador();
         }
     }
+
     private void ReiniciarJugador()
     {
-        // Define aquí la posición donde quieres que reaparezca
-        transform.position = new Vector3(0f, 0f, 0f); // Ejemplo: (0,0,0)
+        transform.position = posicionInicial;
         vida = maximaVida;
-        barraDeVida.InicializarBarraDeVida(vida);
+        barraDeVida?.InicializarBarraDeVida(maximaVida);
     }
 }
